@@ -1,0 +1,701 @@
+body{
+	margin: 0;
+	font-family: arial;
+}
+.maincontainer{
+	width: 100%;
+	height: 100px;
+	background-color: #252525;
+}
+.innercontainer{
+	width: 1300px;
+	height: 100px;
+	background-color:#252525;;
+	margin: auto;
+}
+.enest {
+	width: 650px;
+	height: 100px;
+	background-color:#252525 ;
+	float: left;
+}
+.enest h1{
+  color: white;
+  padding-left: 35px;
+  font-family: ;
+}
+.enest p{
+  color: black;
+  font-size:10px;
+  padding-left: 35px;
+  padding-top: 0px;
+  font-family:;
+}
+.login{
+	width: 650px;
+	height: 100px;
+	background-color: #252525;
+	float: right;
+}
+.login h4{
+	float: right;
+	padding-top: 15px;
+	color: white;
+	padding-right: 100px;
+	font-family: ;
+}
+.maincontainer1{
+	width: 100%;
+	height: 50px;
+	background-color: #100000;
+}
+.innercontainer1{
+	width: 1300px;
+	height: 50px;
+	background-color:#100000; 
+	margin: auto;
+}
+.menu{
+	width:800px;
+	height: 50px;
+	background-color: #100000;
+	float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ;
+    font-family: arial;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: inline-block;
+    color: #787878;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.box{
+	width: 300px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin: 5px;
+	margin-left: 75px;
+}
+.srch{
+	width: 200px;
+	height: 30px;
+	background-color:;
+	margin: 5px;
+	float: left;
+	border: 2px solid;
+}
+.box button{
+	float: left;
+	margin: 5px;
+	background-color: #292929;
+	color: white;
+	cursor: pointer;
+	height: 30px;
+	width: 75px;
+
+}
+.maincontainer2{
+	width: 100%;
+	height: 550px;
+	background-color:;
+	border: ;
+}
+.innercontainer2{
+	width: 1300px;
+	height: 550px;
+	background-color:;
+	margin: auto;
+}
+.box2{
+	width: 700px;
+	height: 250px;
+	background-color:#f4f4f4 ;
+	margin-left: 280px;
+	margin-top: 10px;
+}
+.user{
+	width: 350px;
+	height: 250px;
+	background-color: ;
+	margin-left: 175px;
+	font-family: arial;
+}
+.user h3{
+   padding-left: 70px;
+}
+.hh{
+	background-color: ;
+	padding-top: 10px;
+}
+.user tr td{
+	margin-left:5px;
+	padding-top: 10px;
+}
+.mob{
+	margin-left: 40px;
+}
+.btnn{
+	background-color: black;
+	width: 80px;
+	height:30px;
+	margin-left: 120px;
+	margin-top: 10px;
+	background-color: #292929;
+	color: white;
+	cursor: pointer;
+}
+.box3{
+	width: 700px;
+	height: 250px;
+	background-color: #f4f4f4;
+	margin-left: 280px;
+	margin-top: 10px;
+}
+.user1{
+	width: 350px;
+	height: 250px;
+	background-color;
+	margin-left: 175px;
+	font-family: arial;
+}
+.user1 h3{
+   padding-left: 45px;
+}
+.user1 tr td{
+	padding-left: px;
+	padding-top: 20px;
+}
+.mob1{
+	margin-left: 40px;
+}
+.user1 button{
+	width: 80px;
+	height:30px;
+	margin-left: 120px;
+	margin-top: 10px;
+	background-color: #292929;
+	color: white;
+
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color:;
+	border: px ;
+	clear: both;
+}
+.innerfooter{
+	width:1300px;
+	height: 50px;
+	background-color:;
+	margin: auto;
+	clear: both;
+}
+.menu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ;
+    font-family: arial;
+
+}
+
+.menu1 li {
+    float: left;
+}
+
+.menu1 li a {
+    display: inline-block;
+    color: #787878;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.maincontainer3{
+	width: 100%;
+	height: 840px;
+	background-color:;
+}
+.innercontainer3{
+	width: 1300px;
+	height: 840px;
+	background-color:;
+	margin: auto;
+	margin-top: 10px;
+}
+.home{
+	width: 300px;
+	height: 550px;
+	background-color:;
+	float: left;
+}
+.home ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 298px;
+    background-color: ;
+    border: 1px solid #555;
+}
+
+.home li a {
+    display: block;
+    color: #000;
+    padding: 12px 18px;
+    text-decoration: none;
+}
+
+.home li {
+    text-align: ;
+    border-bottom: 1px solid #555;
+}
+
+.home li:last-child {
+    border-bottom: none;
+}
+
+.home li a.active {
+    background-color:#272727;
+    color: white;
+}
+
+.home li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.contact{
+	width: 985px;
+	height: 75px;
+	background-color: #f5f5f5;
+	float: left;
+	margin-left:15px;
+}
+.contact h1{
+	padding-left: 30px;
+	color: #272727;
+}
+.service{
+	width: 975px;
+	height: 750px;
+	background-color: ;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+.service p{
+	padding: 15px;
+	color: ;
+}
+.pp{
+	width: 550px;
+	height: 90px;
+	background-color: ;
+	padding-bottom: 10px;	
+}
+.container{
+	width: 950px;
+	height: 350px;
+	background-color: ;
+	margin-left: 12px;
+	border: 2px solid black;
+}
+.tbl{
+	background-color: ;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.container button{
+	width: 120px;
+	height: 45px;
+	margin-top: -40px;
+	margin-left: 50px;
+	background-color: white;
+}
+.container span{
+	float: right;
+	margin-top: 20px;
+}
+.tbl tr td{
+	padding-left: 45px;
+	padding-top: 5px;
+}
+.tbl input[type="text"]
+{
+	width: 330px;
+	height: 30px;
+	border: solid 1px #000;
+}
+.tbl textarea[type="text"]
+{
+	width: 350px;
+	height: 30px;
+	border: solid 1px #000;
+}
+.bb{
+	width: 90px;
+	height: 40px;
+	margin-left: 12px;
+	margin-top: 15px;
+	background-color: #272727;
+	color: white;
+}
+.maincontainer4{
+	width: 100%;
+	height: 1043px;
+	background-color:;
+}
+.innercontainer4{
+	width: 1300px;
+	height: 1043px;
+	background-color:;
+	margin: auto;
+	margin-top: 10px;
+}
+.dish{
+    width: 975px;
+	height: 550px;
+	background-color: ;
+	margin-top: 10px;
+	border: 2px solid black;	
+}
+.pic{
+	width: 300px;
+	height: 520px;
+	background-color: ;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+.model{
+	width: 500px;
+	height: 375px;
+	background-color: ;
+	float: left;
+	margin-top: 20px;
+}
+.model button{
+	width: 120px;
+	height: 30px;
+	background-color: #272727;
+	color: white;
+}
+.bb1{
+	width: 250px;
+	height: 50px;
+	margin-top: 20px;
+	color: black;
+	border-color: 2px solid black;
+}
+.info{
+    width: 977px;
+	height: 395px;
+	background-color: ;
+	margin-top: 5px;
+	border: 0.5px solid black;	
+}
+.info input[type="text"]
+{
+	width: 175px;
+	height: 25px;
+	border: solid 2px #000;
+}
+.info button{
+	width: 120px;
+	height: 30px;
+	background-color: #272727;
+	color: white;
+}
+.maincontainer5{
+	width: 100%;
+	height: auto;
+	background-color:;
+}
+.innercontainer5{
+	width: 1300px;
+	height: auto;
+	background-color:;
+	margin: auto;
+	margin-top: 10px;
+}
+.contact1{
+	width: 985px;
+	height: 75px;
+	background-color: #f5f5f5;
+	float: left;
+	margin-left:15px;
+	margin-top: 5px;
+}
+.contact1 tr td{
+	padding-left:30px;
+	padding-top: 25px;
+	color: #272727;
+}
+.contact2{
+	width: 985px;
+	height: 45px;
+	background-color:;
+	float: left;
+	margin-left:15px;
+	margin-top: 5px;
+}
+.contact2 span{
+	padding-left:30px;
+	padding-top: 25px;
+	color: #272727;
+}
+.contact2 button{
+	width: px;
+   height: 35px;
+   float: right;
+   background-color: #272727;
+   color: white;
+   cursor: pointer;
+   margin-top: 7px;
+}
+.dish1{
+    width: 975px;
+	height: 455px;
+	background-color:;
+	border: 2px solid black;	
+}
+.dish1{
+   margin-top: 25px;	
+}
+.dish2,.dish3,.dish4{
+    margin-top: px;	
+}
+.pic1,.pic2,.pic3,.pic4{
+	width: 300px;
+	height: 390px;
+	background-color: ;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+.pic1 button,.pic2 button,.pic3 button,.pic4 button{
+	float: left;
+	width: 250px;
+	height: 50px;
+	background-color: white;
+	color: black;
+
+}
+.model1,.model2,.model3,.model4{
+	width: 500px;
+	height: 410px;
+	background-color:;
+	float: left;
+	margin-top: px;
+}
+.model1 button,.model2 button,.model3 button,.model4 button{
+   float: left;
+   width: 120px;
+   height: 50px;
+}
+.contact3{
+	width: 985px;
+	height: 45px;
+	background-color: ;
+	float: left;
+	margin-left:px;
+	margin-top: 5px;
+}
+.contact3 span{
+	padding-left:30px;
+	padding-top: 25px;
+	color: #272727;
+}
+.contact3 button{
+	width: px;
+   height: 35px;
+   float: right;
+   background-color: #272727;
+   color: white;
+   cursor: pointer;
+   margin-top: 5px;
+}
+.maincontainer6{
+	width: 100%;
+	height: 350px;
+	background-color: ;
+}
+.innercontainer6{
+	width: 1300px;
+	height: 350px;
+	background-color: ;
+	margin: auto;
+}
+.main img{
+	width:1300px;
+	height:350px;
+	position: absolute;
+	display: none;
+}
+.maincontainer7{
+	width: 100%;
+	height: 900px;
+	background-color:;
+}
+.innercontainer7{
+	width: 1300px;
+	height: 900px;
+	background-color:;
+	margin: auto;
+	margin-top: 5px;
+}
+.cntct{
+    width: 985px;
+	height:800px;
+	background-color: ;
+	float: left;
+	margin-left:px;
+	margin-top: 5px;
+}
+.bx1{
+	width: 324px;
+	height: 400px;
+	background-color: ;
+	border: 1px solid black;
+	float: left;
+	margin-left:px;
+}
+.bx2{
+	width: 324px;
+	height: 400px;
+	background-color: ;
+	border: 1px solid black;
+	float: left;
+	margin-left: 3px;
+}
+.bx3{
+	width: 324px;
+	height: 400px;
+	background-color: ;
+	border: 1px solid black;
+	float: left;
+	margin-left: 3px;
+}
+.bx4{
+	width: 324px;
+	height: 400px;
+	background-color: ;
+	border: 1px solid black;
+	float: left;
+	margin-top: 5px;
+}
+.bx5{
+	width: 324px;
+	height: 400px;
+	background-color: ;
+	border: 1px solid black;
+	float: left;
+	margin-left: 3px;
+	margin-top: 5px;
+}
+.bx6{
+	width: 324px;
+	height: 400px;
+	background-color: ;
+	border: 1px solid black;
+	float: left;
+	margin-left: 3px;
+	margin-top: 5px;
+}
+.bx1 img{
+	padding:35px;
+	float: left;
+}
+.bx1 b,span{
+	padding-left: 20px;
+}
+.bx1 button{
+	width:100px;
+	height: 50px;
+	background-color: #272727;
+	color: white;
+	margin-top: 30px;
+}
+.bx2 img{
+	padding:35px;
+	float: left;
+}
+.bx2 b,span{
+	padding-left: 20px;
+}
+.bx2 button{
+	width:100px;
+	height: 50px;
+	background-color: #272727;
+	color: white;
+	margin-top: 30px;
+}
+.bx3 img{
+	padding:35px;
+	float: left;
+}
+.bx3 b,span{
+	padding-left: 20px;
+}
+.bx3 button{
+	width:100px;
+	height: 50px;
+	background-color: #272727;
+	color: white;
+	margin-top: 30px;
+}
+.bx4 img{
+	padding:35px;
+	float: left;
+}
+.bx4 b,span{
+	padding-left: 20px;
+}
+.bx4 button{
+	width:100px;
+	height: 50px;
+	background-color: #272727;
+	color: white;
+	margin-top: 30px;
+}
+.bx5 img{
+	padding:35px;
+	float: left;
+}
+.bx5 b,span{
+	padding-left: 20px;
+}
+.bx5 button{
+	width:100px;
+	height: 50px;
+	background-color: #272727;
+	color: white;
+	margin-top: 30px;
+}
+.bx6 img{
+	padding:35px;
+	float: left;
+}
+.bx6 b,span{
+	padding-left: 20px;
+}
+.bx6 button{
+	width:100px;
+	height: 50px;
+	background-color: #272727;
+	color: white;
+	margin-top: 30px;
+}
